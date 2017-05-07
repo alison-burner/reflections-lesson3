@@ -24,3 +24,7 @@ You may not want to automatically update your local copy if you are working on a
 
 The benefit is that you can always revert to the previous state if you are offline. Therefore, you don't need internet access to fix a bug.
 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If you didn't collaborate with Git or Github, you'd need a pretty expensive cloud to store every version of your projects. You would not be able to collaborate at the same time to the extent you can in Git(hub). While it would be great to have a real-time repository like Google Docs for code, code requires more attention to detail. If file names are the same, it'd be extra difficult to sort through possibly thousands of files and directories -- you'd need to develop an organizational system that probably replicates Github.

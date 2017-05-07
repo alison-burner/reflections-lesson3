@@ -1,0 +1,35 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, you're telling git to start a git repository in the directory. If there are pre-existing files or directories, they will be considered as part of the repository. However, Git won't publish the contents of the folder without an explicit commit. You need to do it to tell Git that you want to start a repo.
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When ou initialize a repository, you're telling git to start a git repository in the directory. If there are pre-existing files or directories, they will be considered as part of the repository. However, Git won't publish the contents of the folder without an explicit commit. You need to do it to tell Git that you want to start a repo.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area differs from the working directory in that the working directory can contain files or directories that you may not want to publish to your repository. You also may want to wait to commit some items until you commit others, so those files can remain in stage until you are ready to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You could run “git status” to make sure the changes you are implementing are, in fact, on stage. I would ultimately run a “git log —stat” to look at my recent commits, and read my comments to see what I committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches could be useful on a website when working on a new page, changing the entire layout of the site, or adding a sub-site to the site.Branches would help by isolating a new feature and ensuring it is not committed prematurely, which could lead to bugs.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help by mapping out commits per branch. It provides a simplified mapping of the history of the project, making it easier to decide what to do in a detached Head situation.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: 
+-You must consider merges every time you make one, which would minimize the possibility of merging the wrong branches or choosing the incorrect commit to merge.
+
+Cons:
+-It adds time to the process. A lot of the time the user is probably sure that they are performing the right merge, but still need to manually request it. 

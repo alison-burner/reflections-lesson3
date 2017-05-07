@@ -12,6 +12,15 @@ You might want to use a remote repository for the following reasons:
 
 You may not want to automatically update your local copy if you are working on a commit; you may not want to update your remote without notifying other collaborators. It also encourages the user to stay up-to-date with happenings on the remote even if they are not directly interacting with it.
 
+
+# Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+* Forks: Cloning a repository on Github to another repository on Github. Your copy has a link back to the original repository.
+* Clone: Copying the contents of a repository onto your local machine or Github. The difference between forks and clones in that you can clone anywhere, but you can only fork a repo on Github.
+* Branches: Rather than creating an entirely new version of a repo, whether yours or another's, you can create a copy focused on a new feature which will eventually merge back into the master repo. Forks and clones may not ever merge into the master repo. 
+
+
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit is that you can always revert to the previous state if you are offline. Therefore, you don't need internet access to fix a bug.
+
